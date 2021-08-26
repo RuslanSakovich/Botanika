@@ -1,0 +1,152 @@
+/* Общие стили */
+
+body {
+  min-width: 1200px;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: normal;
+  color: #AE7C78;
+  background-color: #e5e5e5;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: #AE7C78;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000000;
+}
+
+a:focus {
+  color: #000000;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  border: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.button {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: border-box;
+  padding: 30px 70px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  border-radius: 40px;
+  color: #ffffff;
+  background-color: #D89999;
+}
+
+.button:hover {
+  color: #cc8b86;
+  border-color: white;
+  background-color: white;
+}
+
+.button:focus {
+  color: #99544f;
+  border: 2px solid #99544f;
+  background-color: white;
+}
+
+
+/* стили для promo */
+
+.promo h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+}
+
+.promo span {
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 58px;
+}
+
+.promo .promo-discription {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+/* стили для advantages */
+
+.advantages-item p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.advantages-item p:last-child {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+/* стили для popular */
+
+.popular .popular-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+} 
+
+.popular p:first-child {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.popular p:last-child {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.popular span {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.popular-link {
+  padding: 30px 105px;
+}
