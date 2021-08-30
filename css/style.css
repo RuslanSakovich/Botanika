@@ -150,3 +150,146 @@ a:focus {
 .popular-link {
   padding: 30px 105px;
 }
+
+
+/* стили для goods */
+
+.goods .googs-list-link h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.goods .googs-list-link p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+/* стили для sale */
+
+.sale h3 {
+  font-family: "Playfair Display", serif;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0.02em;
+}
+
+.sale p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* стили для buy-step */
+
+.buy-step .buy-step-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+.buy-step-item p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.buy-step-item p:last-child {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+
+/* стили для news */
+
+.news .news-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.news p {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+
+/* стили для feedback */
+
+.feedback .feedback-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.feedback-item p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.feedback-item p:last-child {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+/* стили для adress */
+
+.adress .adress-title {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+}
+
+.adress .title {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.adress p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+/* стили для footer */
+
+
+
+
+
+
+
