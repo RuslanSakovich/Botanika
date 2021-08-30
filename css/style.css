@@ -154,24 +154,36 @@ a:focus {
 
 /* стили для goods */
 
-.goods .googs-list-link h3 {
+.goods {
+  background-color: #AE7C78;
+}
+
+.goods .goods-list-link h3 {
   font-family: "Playfair Display", serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
-.goods .googs-list-link p {
+.goods .goods-list-link p {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 20px;
+  color: #ffffff;
 }
 
 
+
 /* стили для sale */
+
+.sale {
+  background-color: #AE7C78;
+  color: #ffffff;
+}
 
 .sale h3 {
   font-family: "Playfair Display", serif;
@@ -286,6 +298,23 @@ a:focus {
 
 
 /* стили для footer */
+
+.main-footer {
+  background-color: #AE7C78;
+}
+
+.footer-nav-list .footer-nav-link {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #ffffff;
+}
+
+.footer-nav-list .footer-nav-link:hover {
+  color: #000000;
+}
+
 
 
 
